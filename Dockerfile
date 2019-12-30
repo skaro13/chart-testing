@@ -3,6 +3,7 @@ FROM alpine:3.10
 RUN apk --no-cache add \
     curl \
     git \
+    bash \
     libc6-compat \
     openssh-client \
     python \
